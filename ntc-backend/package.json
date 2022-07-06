@@ -1,0 +1,14 @@
+{
+  "name": "ntc-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "João Fagotti",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only index.ts"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  }
+}

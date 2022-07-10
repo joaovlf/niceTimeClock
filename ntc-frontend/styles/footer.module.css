@@ -1,0 +1,12 @@
+.footer{
+    background-color: #EF4270;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}

@@ -12,7 +12,7 @@ const Home:NextPage = () => {
       <Header title='Home'/>
  
           <Container>
-              <Link href='/users'>
+              <Link href='/usersList'>
                 <a>
                   listagem de usuarios
                 </a>

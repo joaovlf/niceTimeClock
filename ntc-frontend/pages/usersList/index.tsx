@@ -40,11 +40,12 @@ const Users = ({data}:IData) => {
       <Header title='Usuarios'/>
           <Container>
             {data.map((item:any, index:number)=>(
-              <p style={{borderBottom:'1px solid #ef42706c', paddingBottom:'0.5rem'}} key={index}>{item.name} {item.lastName}</p>
+              <div key={index}>
+              <div className={styles.buttonContainer}>
+                <Button onClick={()=>handleRoute(idLogedUser)}> Usuario: {item.name} {item.lastName} - Registrar Ponto</Button>  
+              </div>
+              </div>
             ))}
-            <div className={styles.buttonContainer}>
-            <Button onClick={()=>handleRoute(idLogedUser)}>Registrar Ponto</Button>
-            </div>
           </Container>
         
           <div>

@@ -1,0 +1,15 @@
+.loginContainer{
+    width: 30rem;
+    align-self: center;
+    height: 30rem;
+    background-color: rgba(20, 20, 20, 0.072);
+    border-radius: 8px;
+    box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.171);
+}
+.loginHeader{
+    background-color:#EF4270 ;
+    color: aliceblue;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 40px;
+}

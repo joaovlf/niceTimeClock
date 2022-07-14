@@ -1,0 +1,12 @@
+.loginInputContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1rem;
+
+}
+.label{
+    display: block;
+    margin-top: 1rem;
+ }
